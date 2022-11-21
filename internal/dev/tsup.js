@@ -84,6 +84,7 @@ function getPackageInfo(packageRoot) {
 		"utf8"
 	);
 	let { version, name } = JSON.parse(packageJson);
+	console.log(`DEBUG : ${name} : ${version}`)
 	return { version, name };
 }
 

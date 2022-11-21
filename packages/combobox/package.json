@@ -1,16 +1,20 @@
 {
   "name": "@reach-fork/combobox",
-  "version": "0.18.0",
+  "version": "1.0.0",
   "description": "Accessible React Combobox (Autocomplete).",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
-  "sideEffects": ["*.css"],
+  "sideEffects": [
+    "*.css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/combobox"
   },
-  "scripts": { "build": "tsup" },
+  "scripts": {
+    "build": "tsup"
+  },
   "dependencies": {
     "@reach-fork/auto-id": "workspace:*",
     "@reach-fork/descendants": "workspace:*",
@@ -35,7 +39,15 @@
   },
   "main": "./dist/reach-combobox.cjs.js",
   "types": "./dist/reach-combobox.d.ts",
-  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
-  "publishConfig": { "access": "public" },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist",
+    "styles.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "./dist/reach-combobox.mjs"
 }

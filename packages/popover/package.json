@@ -1,10 +1,12 @@
 {
   "name": "@reach-fork/popover",
-  "version": "0.18.0",
+  "version": "1.0.0",
   "description": "Render a portal positioned relative to another element.",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
-  "scripts": { "build": "tsup" },
+  "scripts": {
+    "build": "tsup"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
@@ -31,6 +33,12 @@
   },
   "main": "./dist/reach-popover.cjs.js",
   "types": "./dist/reach-popover.d.ts",
-  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist",
+    "styles.css"
+  ],
   "module": "./dist/reach-popover.mjs"
 }

@@ -1,5 +1,16 @@
 # `@reach/skip-nav`
 
+## 1.0.0
+
+### Major Changes
+
+- 1
+
+### Patch Changes
+
+- Updated dependencies:
+  - `@reach-fork/polymorphic@1.0.0`
+
 ## 0.18.0
 
 ### Minor Changes

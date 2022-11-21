@@ -1,17 +1,21 @@
 {
   "name": "@reach-fork/checkbox",
-  "version": "0.18.0",
+  "version": "1.0.0",
   "description": "Accessible components to build custom, tri-state checkboxes in React.",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
   "source": "",
-  "sideEffects": ["*.css"],
+  "sideEffects": [
+    "*.css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/checkbox"
   },
-  "scripts": { "build": "tsup" },
+  "scripts": {
+    "build": "tsup"
+  },
   "dependencies": {
     "@reach-fork/auto-id": "workspace:*",
     "@reach-fork/machine": "workspace:*",
@@ -32,7 +36,15 @@
   },
   "main": "./dist/reach-checkbox.cjs.js",
   "types": "./dist/reach-checkbox.d.ts",
-  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
-  "publishConfig": { "access": "public" },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist",
+    "styles.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "./dist/reach-checkbox.mjs"
 }

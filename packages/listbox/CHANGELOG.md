@@ -1,5 +1,21 @@
 # `@reach/listbox`
 
+## 1.0.0
+
+### Major Changes
+
+- 1
+
+### Patch Changes
+
+- Updated dependencies:
+  - `@reach-fork/auto-id@1.0.0`
+  - `@reach-fork/descendants@1.0.0`
+  - `@reach-fork/machine@1.0.0`
+  - `@reach-fork/polymorphic@1.0.0`
+  - `@reach-fork/popover@1.0.0`
+  - `@reach-fork/utils@1.0.0`
+
 ## 0.18.0
 
 ### BREAKING Changes

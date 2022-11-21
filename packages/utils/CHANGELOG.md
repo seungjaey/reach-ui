@@ -1,5 +1,11 @@
 # `@reach/utils`
 
+## 1.0.0
+
+### Major Changes
+
+- 1
+
 ## 0.18.0
 
 ### BREAKING Changes

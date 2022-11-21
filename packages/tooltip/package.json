@@ -1,16 +1,20 @@
 {
   "name": "@reach-fork/tooltip",
-  "version": "0.18.0",
+  "version": "1.0.0",
   "description": "Accessible tooltips",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
-  "sideEffects": ["*.css"],
+  "sideEffects": [
+    "*.css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/tooltip"
   },
-  "scripts": { "build": "tsup" },
+  "scripts": {
+    "build": "tsup"
+  },
   "dependencies": {
     "@reach-fork/auto-id": "workspace:*",
     "@reach-fork/polymorphic": "workspace:*",
@@ -33,7 +37,15 @@
   },
   "main": "./dist/reach-tooltip.cjs.js",
   "types": "./dist/reach-tooltip.d.ts",
-  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
-  "publishConfig": { "access": "public" },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist",
+    "styles.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "./dist/reach-tooltip.mjs"
 }
