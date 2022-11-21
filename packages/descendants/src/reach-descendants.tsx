@@ -3,7 +3,7 @@ import {
 	useForceUpdate,
 	useIsomorphicLayoutEffect as useLayoutEffect,
 	noop,
-} from "@reach/utils";
+} from "@reach-fork/utils";
 
 declare const __DEV__: boolean;
 

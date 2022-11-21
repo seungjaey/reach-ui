@@ -1,7 +1,7 @@
 import * as React from "react";
 import { action } from "@storybook/addon-actions";
-import { Dialog } from "@reach/dialog";
-import "@reach/dialog/styles.css";
+import { Dialog } from "@reach-fork/dialog";
+import "@reach-fork/dialog/styles.css";
 
 let name = "No Tabbables";
 

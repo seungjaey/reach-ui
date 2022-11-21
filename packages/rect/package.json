@@ -1,45 +1,35 @@
 {
-	"name": "@reach/rect",
-	"version": "0.18.0",
-	"description": "Measure React elements position in the DOM",
-	"author": "React Training <hello@reacttraining.com>",
-	"license": "MIT",
-	"sideEffects": [
-		"*.css"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/reach/reach-ui.git",
-		"directory": "packages/rect"
-	},
-	"scripts": {
-		"build": "tsup"
-	},
-	"dependencies": {
-		"@reach/observe-rect": "1.2.0",
-		"@reach/utils": "workspace:*"
-	},
-	"devDependencies": {
-		"@reach-internal/dev": "workspace:*",
-		"@reach-internal/test": "workspace:*",
-		"@reach-internal/tsconfig": "workspace:*",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"tsup": "^6.1.3"
-	},
-	"peerDependencies": {
-		"react": "^16.8.0 || 17.x",
-		"react-dom": "^16.8.0 || 17.x"
-	},
-	"main": "./src/reach-rect.tsx",
-	"types": "./src/reach-rect.tsx",
-	"files": [
-		"CHANGELOG.md",
-		"LICENSE",
-		"README.md",
-		"dist"
-	],
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@reach-fork/rect",
+  "version": "0.18.0",
+  "description": "Measure React elements position in the DOM",
+  "author": "React Training <hello@reacttraining.com>",
+  "license": "MIT",
+  "sideEffects": ["*.css"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seungjaey/reach-ui.git",
+    "directory": "packages/rect"
+  },
+  "scripts": { "build": "tsup" },
+  "dependencies": {
+    "@reach/observe-rect": "1.2.0",
+    "@reach-fork/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@reach-fork-internal/dev": "workspace:*",
+    "@reach-fork-internal/test": "workspace:*",
+    "@reach-fork-internal/tsconfig": "workspace:*",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tsup": "^6.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || 17.x || 18.x",
+    "react-dom": "^16.8.0 || 17.x || 18.x"
+  },
+  "main": "./dist/reach-rect.cjs.js",
+  "types": "./dist/reach-rect.d.ts",
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
+  "publishConfig": { "access": "public" },
+  "module": "./dist/reach-rect.mjs"
 }

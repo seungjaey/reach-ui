@@ -1,6 +1,6 @@
 import * as React from "react";
-import { SkipNavLink, SkipNavContent } from "@reach/skip-nav";
-import "@reach/skip-nav/styles.css";
+import { SkipNavLink, SkipNavContent } from "@reach-fork/skip-nav";
+import "@reach-fork/skip-nav/styles.css";
 import { action } from "@storybook/addon-actions";
 
 let name = "Basic";

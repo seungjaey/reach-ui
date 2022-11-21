@@ -1,8 +1,8 @@
-import { assign } from "@reach/machine";
-import { getOwnerDocument } from "@reach/utils";
+import { assign } from "@reach-fork/machine";
+import { getOwnerDocument } from "@reach-fork/utils";
 
 import type { ListboxDescendant, ListboxValue } from "./reach-listbox";
-import type { MachineEventWithRefs, StateMachine } from "@reach/machine";
+import type { MachineEventWithRefs, StateMachine } from "@reach-fork/machine";
 
 ////////////////////////////////////////////////////////////////////////////////
 // States

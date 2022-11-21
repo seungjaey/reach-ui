@@ -5,11 +5,11 @@ import {
 	ComboboxList,
 	ComboboxOption,
 	ComboboxPopover,
-} from "@reach/combobox";
-import type { ComboboxProps, ComboboxInputProps } from "@reach/combobox";
-import { composeEventHandlers } from "@reach/utils";
+} from "@reach-fork/combobox";
+import type { ComboboxProps, ComboboxInputProps } from "@reach-fork/combobox";
+import { composeEventHandlers } from "@reach-fork/utils";
 import { useCityMatch } from "./utils";
-import "@reach/combobox/styles.css";
+import "@reach-fork/combobox/styles.css";
 
 let name = "Token Input";
 

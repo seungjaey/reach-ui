@@ -6,9 +6,9 @@ import {
 	TabPanels,
 	TabPanel,
 	useTabsContext,
-} from "@reach/tabs";
-import { useRect } from "@reach/rect";
-import "@reach/tabs/styles.css";
+} from "@reach-fork/tabs";
+import { useRect } from "@reach-fork/rect";
+import "@reach-fork/tabs/styles.css";
 
 let name = "Animated Bar";
 

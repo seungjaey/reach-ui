@@ -3,11 +3,11 @@
  */
 
 import * as React from "react";
-import { Portal } from "@reach/portal";
-import type { PRect } from "@reach/rect";
-import { useRect } from "@reach/rect";
-import { getOwnerDocument, useComposedRefs } from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
+import { Portal } from "@reach-fork/portal";
+import type { PRect } from "@reach-fork/rect";
+import { useRect } from "@reach-fork/rect";
+import { getOwnerDocument, useComposedRefs } from "@reach-fork/utils";
+import type * as Polymorphic from "@reach-fork/polymorphic";
 import { tabbable } from "tabbable";
 
 // TODO: tabbable types incorrectly exclude `document` as a param. Open a PR to

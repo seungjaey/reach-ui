@@ -11,16 +11,16 @@
  */
 
 import * as React from "react";
-import { Portal } from "@reach/portal";
-import type { PortalProps } from "@reach/portal";
+import { Portal } from "@reach-fork/portal";
+import type { PortalProps } from "@reach-fork/portal";
 import {
 	composeEventHandlers,
 	createContext,
 	getOwnerDocument,
 	noop,
 	useComposedRefs,
-} from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
+} from "@reach-fork/utils";
+import type * as Polymorphic from "@reach-fork/polymorphic";
 import FocusLock from "react-focus-lock";
 import { RemoveScroll } from "react-remove-scroll";
 

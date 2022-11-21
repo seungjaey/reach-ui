@@ -9,7 +9,7 @@ import {
 	render,
 	userEvent,
 	cleanup,
-} from "@reach-internal/test/utils";
+} from "@reach-fork-internal/test/utils";
 import { Dialog } from "@reach/dialog";
 import { expect, describe, beforeEach, afterEach, it } from "vitest";
 

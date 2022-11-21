@@ -6,10 +6,10 @@ import {
 	ComboboxPopover,
 	ComboboxOption,
 	ComboboxButton,
-} from "@reach/combobox";
-import { VisuallyHidden } from "@reach/visually-hidden";
+} from "@reach-fork/combobox";
+import { VisuallyHidden } from "@reach-fork/visually-hidden";
 import { useCityMatch } from "./utils";
-import "@reach/combobox/styles.css";
+import "@reach-fork/combobox/styles.css";
 
 let name = "With Button";
 

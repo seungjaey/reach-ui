@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Slider } from "@reach/slider";
+import { Slider } from "@reach-fork/slider";
 import { useAudio, timeToMs, msToTime } from "./utils";
-import "@reach/slider/styles.css";
+import "@reach-fork/slider/styles.css";
 
 let name = "Audio Progress";
 

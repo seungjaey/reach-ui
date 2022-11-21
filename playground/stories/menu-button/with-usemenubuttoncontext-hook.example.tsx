@@ -6,8 +6,8 @@ import {
 	MenuButton,
 	MenuItem,
 	useMenuButtonContext,
-} from "@reach/menu-button";
-import "@reach/menu-button/styles.css";
+} from "@reach-fork/menu-button";
+import "@reach-fork/menu-button/styles.css";
 
 let name = "With useMenuButtonContext";
 

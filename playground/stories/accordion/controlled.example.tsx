@@ -1,11 +1,11 @@
 import * as React from "react";
-import "@reach/accordion/styles.css";
+import "@reach-fork/accordion/styles.css";
 import {
 	Accordion,
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-} from "@reach/accordion";
+} from "@reach-fork/accordion";
 
 let name = "Controlled";
 

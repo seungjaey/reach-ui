@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Slider, SLIDER_HANDLE_ALIGN_CONTAIN } from "@reach/slider";
-import "@reach/slider/styles.css";
+import { Slider, SLIDER_HANDLE_ALIGN_CONTAIN } from "@reach-fork/slider";
+import "@reach-fork/slider/styles.css";
 
 let name = "Contained Handle";
 

@@ -1,43 +1,36 @@
 {
-	"name": "@reach/popover",
-	"version": "0.18.0",
-	"description": "Render a portal positioned relative to another element.",
-	"author": "React Training <hello@reacttraining.com>",
-	"license": "MIT",
-	"scripts": {
-		"build": "tsup"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/reach/reach-ui.git",
-		"directory": "packages/popover"
-	},
-	"dependencies": {
-		"@reach/polymorphic": "workspace:*",
-		"@reach/portal": "workspace:*",
-		"@reach/rect": "workspace:*",
-		"@reach/utils": "workspace:*",
-		"tabbable": "^5.3.3"
-	},
-	"devDependencies": {
-		"@reach-internal/dev": "workspace:*",
-		"@reach-internal/test": "workspace:*",
-		"@reach-internal/tsconfig": "workspace:*",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"tsup": "^6.1.3"
-	},
-	"peerDependencies": {
-		"react": "^16.8.0 || 17.x",
-		"react-dom": "^16.8.0 || 17.x"
-	},
-	"main": "./src/reach-popover.tsx",
-	"types": "./src/reach-popover.tsx",
-	"files": [
-		"CHANGELOG.md",
-		"LICENSE",
-		"README.md",
-		"dist",
-		"styles.css"
-	]
+  "name": "@reach-fork/popover",
+  "version": "0.18.0",
+  "description": "Render a portal positioned relative to another element.",
+  "author": "React Training <hello@reacttraining.com>",
+  "license": "MIT",
+  "scripts": { "build": "tsup" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seungjaey/reach-ui.git",
+    "directory": "packages/popover"
+  },
+  "dependencies": {
+    "@reach-fork/polymorphic": "workspace:*",
+    "@reach-fork/portal": "workspace:*",
+    "@reach-fork/rect": "workspace:*",
+    "@reach-fork/utils": "workspace:*",
+    "tabbable": "^5.3.3"
+  },
+  "devDependencies": {
+    "@reach-fork-internal/dev": "workspace:*",
+    "@reach-fork-internal/test": "workspace:*",
+    "@reach-fork-internal/tsconfig": "workspace:*",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tsup": "^6.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || 17.x || 18.x",
+    "react-dom": "^16.8.0 || 17.x || 18.x"
+  },
+  "main": "./dist/reach-popover.cjs.js",
+  "types": "./dist/reach-popover.d.ts",
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
+  "module": "./dist/reach-popover.mjs"
 }

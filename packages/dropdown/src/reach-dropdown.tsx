@@ -2,8 +2,8 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { useId } from "@reach/auto-id";
-import { Popover } from "@reach/popover";
+import { useId } from "@reach-fork/auto-id";
+import { Popover } from "@reach-fork/popover";
 import {
 	createDescendantContext,
 	DescendantProvider,
@@ -11,7 +11,7 @@ import {
 	useDescendants,
 	useDescendantsInit,
 	useDescendantKeyDown,
-} from "@reach/descendants";
+} from "@reach-fork/descendants";
 import {
 	composeEventHandlers,
 	createContext,
@@ -23,11 +23,11 @@ import {
 	usePrevious,
 	useStatefulRefValue,
 	makeId,
-} from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
+} from "@reach-fork/utils";
+import type * as Polymorphic from "@reach-fork/polymorphic";
 
-import type { Descendant } from "@reach/descendants";
-import type { Position } from "@reach/popover";
+import type { Descendant } from "@reach-fork/descendants";
+import type { Position } from "@reach-fork/popover";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Actions

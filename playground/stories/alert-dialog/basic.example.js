@@ -3,7 +3,7 @@ import {
 	AlertDialog,
 	AlertDialogLabel,
 	AlertDialogDescription,
-} from "@reach/alert-dialog";
+} from "@reach-fork/alert-dialog";
 
 let name = "Example";
 

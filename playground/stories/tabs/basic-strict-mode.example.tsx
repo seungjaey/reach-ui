@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs";
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach-fork/tabs";
 import { action } from "@storybook/addon-actions";
-import "@reach/tabs/styles.css";
+import "@reach-fork/tabs/styles.css";
 
 let name = "Basic (Strict Mode)";
 

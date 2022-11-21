@@ -22,9 +22,9 @@ import {
 	useComposedRefs,
 	composeEventHandlers,
 	useControlledState,
-} from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
-import { useId } from "@reach/auto-id";
+} from "@reach-fork/utils";
+import type * as Polymorphic from "@reach-fork/polymorphic";
+import { useId } from "@reach-fork/auto-id";
 
 const [DisclosureProvider, useDisclosureCtx] =
 	createContext<DisclosureContextValue>("Disclosure");
