@@ -32,7 +32,7 @@
 	],
 	"linked": [],
 	"access": "public",
-	"baseBranch": "dev",
+	"baseBranch": "release",
 	"updateInternalDependencies": "patch",
 	"ignore": []
 }
