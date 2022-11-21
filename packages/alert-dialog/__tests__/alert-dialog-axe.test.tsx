@@ -4,7 +4,7 @@
 import * as React from "react";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";
-import { cleanup, render, fireEvent, act } from "@reach-fork-internal/test/utils";
+import { cleanup, render, fireEvent, act } from "@reach-fork-hamtolchu-internal/test/utils";
 import {
 	AlertDialog,
 	AlertDialogLabel,

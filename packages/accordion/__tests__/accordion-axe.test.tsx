@@ -2,7 +2,7 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { render, fireEvent, cleanup } from "@reach-fork-internal/test/utils";
+import { render, fireEvent, cleanup } from "@reach-fork-hamtolchu-internal/test/utils";
 import { axe } from "vitest-axe";
 import {
 	Accordion,

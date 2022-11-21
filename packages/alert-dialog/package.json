@@ -1,5 +1,5 @@
 {
-  "name": "@reach-fork/alert-dialog",
+  "name": "@reach-fork-hamtolchu/alert-dialog",
   "version": "1.0.0",
   "description": "Accessible React Alert Dialog.",
   "author": "React Training <hello@reacttraining.com>",
@@ -11,16 +11,16 @@
   },
   "scripts": { "build": "tsup" },
   "dependencies": {
-    "@reach-fork/auto-id": "workspace:*",
-    "@reach-fork/dialog": "workspace:*",
-    "@reach-fork/polymorphic": "workspace:*",
-    "@reach-fork/utils": "workspace:*",
+    "@reach-fork-hamtolchu/auto-id": "workspace:*",
+    "@reach-fork-hamtolchu/dialog": "workspace:*",
+    "@reach-fork-hamtolchu/polymorphic": "workspace:*",
+    "@reach-fork-hamtolchu/utils": "workspace:*",
     "tiny-invariant": "^1.2.0"
   },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

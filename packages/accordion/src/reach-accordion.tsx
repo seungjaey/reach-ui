@@ -17,18 +17,18 @@ import {
 	useControlledState,
 	composeEventHandlers,
 	useStatefulRefValue,
-} from "@reach-fork/utils";
-import type * as Polymorphic from "@reach-fork/polymorphic";
+} from "@reach-fork-hamtolchu/utils";
+import type * as Polymorphic from "@reach-fork-hamtolchu/polymorphic";
 import {
 	createDescendantContext,
 	DescendantProvider,
 	useDescendant,
 	useDescendantKeyDown,
 	useDescendantsInit,
-} from "@reach-fork/descendants";
-import { useId } from "@reach-fork/auto-id";
+} from "@reach-fork-hamtolchu/descendants";
+import { useId } from "@reach-fork-hamtolchu/auto-id";
 
-import type { Descendant } from "@reach-fork/descendants";
+import type { Descendant } from "@reach-fork-hamtolchu/descendants";
 
 const AccordionDescendantContext = createDescendantContext<AccordionDescendant>(
 	"AccordionDescendantContext"

@@ -75,7 +75,7 @@ interface MemoComponent<IntrinsicElementString, OwnProps = {}>
 export default () => {
 	if (__DEV__) {
 		throw new Error(
-			"@reach-fork/polymorphic is a package for internal utility types and should not be used directly."
+			"@reach-fork-hamtolchu/polymorphic is a package for internal utility types and should not be used directly."
 		);
 	}
 };

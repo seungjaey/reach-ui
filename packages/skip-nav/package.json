@@ -1,5 +1,5 @@
 {
-  "name": "@reach-fork/skip-nav",
+  "name": "@reach-fork-hamtolchu/skip-nav",
   "version": "1.0.0",
   "description": "Skip navigation links for screen reader and keyboard users.",
   "author": "React Training <hello@reacttraining.com>",
@@ -11,11 +11,11 @@
     "directory": "packages/skip-nav"
   },
   "scripts": { "build": "tsup" },
-  "dependencies": { "@reach-fork/polymorphic": "workspace:*" },
+  "dependencies": { "@reach-fork-hamtolchu/polymorphic": "workspace:*" },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

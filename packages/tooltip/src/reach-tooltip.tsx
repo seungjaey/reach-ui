@@ -41,18 +41,18 @@
  */
 
 import * as React from "react";
-import { useId } from "@reach-fork/auto-id";
+import { useId } from "@reach-fork-hamtolchu/auto-id";
 import {
 	getDocumentDimensions,
 	getOwnerDocument,
 	makeId,
 	useComposedRefs,
 	composeEventHandlers,
-} from "@reach-fork/utils";
-import type * as Polymorphic from "@reach-fork/polymorphic";
-import { Portal } from "@reach-fork/portal";
-import { VisuallyHidden } from "@reach-fork/visually-hidden";
-import { useRect } from "@reach-fork/rect";
+} from "@reach-fork-hamtolchu/utils";
+import type * as Polymorphic from "@reach-fork-hamtolchu/polymorphic";
+import { Portal } from "@reach-fork-hamtolchu/portal";
+import { VisuallyHidden } from "@reach-fork-hamtolchu/visually-hidden";
+import { useRect } from "@reach-fork-hamtolchu/rect";
 
 declare const __DEV__: boolean;
 

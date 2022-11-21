@@ -2,7 +2,7 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { cleanup, act, render } from "@reach-fork-internal/test/utils";
+import { cleanup, act, render } from "@reach-fork-hamtolchu-internal/test/utils";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";
 import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs";

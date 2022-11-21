@@ -9,9 +9,9 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@reach-fork/polymorphic@1.0.0`
-  - `@reach-fork/utils@1.0.0`
-  - `@reach-fork/visually-hidden@1.0.0`
+  - `@reach-fork-hamtolchu/polymorphic@1.0.0`
+  - `@reach-fork-hamtolchu/utils@1.0.0`
+  - `@reach-fork-hamtolchu/visually-hidden@1.0.0`
 
 ## 0.18.0
 

@@ -1,5 +1,5 @@
 {
-	"extends": "@reach-fork-internal/tsconfig/react-library.json",
+	"extends": "@reach-fork-hamtolchu-internal/tsconfig/react-library.json",
 	"include": ["."],
 	"exclude": ["node_modules", "dist", "__tests__/**/*", "examples"]
 }

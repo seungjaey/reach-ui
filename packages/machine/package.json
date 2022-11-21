@@ -1,5 +1,5 @@
 {
-  "name": "@reach-fork/machine",
+  "name": "@reach-fork-hamtolchu/machine",
   "version": "1.0.0",
   "description": "State machine utilities for the Reach UI library.",
   "author": "React Training <hello@reacttraining.com>",
@@ -12,13 +12,13 @@
   },
   "scripts": { "build": "tsup" },
   "dependencies": {
-    "@reach-fork/utils": "workspace:*",
+    "@reach-fork-hamtolchu/utils": "workspace:*",
     "@xstate/fsm": "1.4.0"
   },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

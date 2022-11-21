@@ -1,5 +1,5 @@
 {
-  "name": "@reach-fork/dialog",
+  "name": "@reach-fork-hamtolchu/dialog",
   "version": "1.0.0",
   "description": "Accessible React Modal Dialog.",
   "author": "React Training <hello@reacttraining.com>",
@@ -12,16 +12,16 @@
   },
   "scripts": { "build": "tsup" },
   "dependencies": {
-    "@reach-fork/polymorphic": "workspace:*",
-    "@reach-fork/portal": "workspace:*",
-    "@reach-fork/utils": "workspace:*",
+    "@reach-fork-hamtolchu/polymorphic": "workspace:*",
+    "@reach-fork-hamtolchu/portal": "workspace:*",
+    "@reach-fork-hamtolchu/utils": "workspace:*",
     "react-focus-lock": "2.5.2",
     "react-remove-scroll": "2.4.3"
   },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

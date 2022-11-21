@@ -5,31 +5,31 @@ importers:
   .:
     specifiers:
       '@changesets/cli': ^2.25.0
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/accordion': workspace:*
-      '@reach-fork/alert': workspace:*
-      '@reach-fork/alert-dialog': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/checkbox': workspace:*
-      '@reach-fork/combobox': workspace:*
-      '@reach-fork/descendants': workspace:*
-      '@reach-fork/dialog': workspace:*
-      '@reach-fork/disclosure': workspace:*
-      '@reach-fork/dropdown': workspace:*
-      '@reach-fork/listbox': workspace:*
-      '@reach-fork/machine': workspace:*
-      '@reach-fork/menu-button': workspace:*
-      '@reach-fork/popover': workspace:*
-      '@reach-fork/portal': workspace:*
-      '@reach-fork/rect': workspace:*
-      '@reach-fork/skip-nav': workspace:*
-      '@reach-fork/slider': workspace:*
-      '@reach-fork/tabs': workspace:*
-      '@reach-fork/tooltip': workspace:*
-      '@reach-fork/utils': workspace:*
-      '@reach-fork/visually-hidden': workspace:*
-      '@reach-fork/window-size': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/accordion': workspace:*
+      '@reach-fork-hamtolchu/alert': workspace:*
+      '@reach-fork-hamtolchu/alert-dialog': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/checkbox': workspace:*
+      '@reach-fork-hamtolchu/combobox': workspace:*
+      '@reach-fork-hamtolchu/descendants': workspace:*
+      '@reach-fork-hamtolchu/dialog': workspace:*
+      '@reach-fork-hamtolchu/disclosure': workspace:*
+      '@reach-fork-hamtolchu/dropdown': workspace:*
+      '@reach-fork-hamtolchu/listbox': workspace:*
+      '@reach-fork-hamtolchu/machine': workspace:*
+      '@reach-fork-hamtolchu/menu-button': workspace:*
+      '@reach-fork-hamtolchu/popover': workspace:*
+      '@reach-fork-hamtolchu/portal': workspace:*
+      '@reach-fork-hamtolchu/rect': workspace:*
+      '@reach-fork-hamtolchu/skip-nav': workspace:*
+      '@reach-fork-hamtolchu/slider': workspace:*
+      '@reach-fork-hamtolchu/tabs': workspace:*
+      '@reach-fork-hamtolchu/tooltip': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
+      '@reach-fork-hamtolchu/visually-hidden': workspace:*
+      '@reach-fork-hamtolchu/window-size': workspace:*
       '@remix-run/changelog-github': ^0.0.5
       '@testing-library/dom': ^8.16.0
       '@testing-library/react': ^12.1.5
@@ -84,31 +84,31 @@ importers:
       vitest-tsconfig-paths: ^3.4.1
     dependencies:
       '@changesets/cli': 2.25.2
-      '@reach-fork-internal/test': link:internal/test
-      '@reach-fork-internal/tsconfig': link:internal/tsconfig
-      '@reach-fork/accordion': link:packages/accordion
-      '@reach-fork/alert': link:packages/alert
-      '@reach-fork/alert-dialog': link:packages/alert-dialog
-      '@reach-fork/auto-id': link:packages/auto-id
-      '@reach-fork/checkbox': link:packages/checkbox
-      '@reach-fork/combobox': link:packages/combobox
-      '@reach-fork/descendants': link:packages/descendants
-      '@reach-fork/dialog': link:packages/dialog
-      '@reach-fork/disclosure': link:packages/disclosure
-      '@reach-fork/dropdown': link:packages/dropdown
-      '@reach-fork/listbox': link:packages/listbox
-      '@reach-fork/machine': link:packages/machine
-      '@reach-fork/menu-button': link:packages/menu-button
-      '@reach-fork/popover': link:packages/popover
-      '@reach-fork/portal': link:packages/portal
-      '@reach-fork/rect': link:packages/rect
-      '@reach-fork/skip-nav': link:packages/skip-nav
-      '@reach-fork/slider': link:packages/slider
-      '@reach-fork/tabs': link:packages/tabs
-      '@reach-fork/tooltip': link:packages/tooltip
-      '@reach-fork/utils': link:packages/utils
-      '@reach-fork/visually-hidden': link:packages/visually-hidden
-      '@reach-fork/window-size': link:packages/window-size
+      '@reach-fork-hamtolchu-internal/test': link:internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:internal/tsconfig
+      '@reach-fork-hamtolchu/accordion': link:packages/accordion
+      '@reach-fork-hamtolchu/alert': link:packages/alert
+      '@reach-fork-hamtolchu/alert-dialog': link:packages/alert-dialog
+      '@reach-fork-hamtolchu/auto-id': link:packages/auto-id
+      '@reach-fork-hamtolchu/checkbox': link:packages/checkbox
+      '@reach-fork-hamtolchu/combobox': link:packages/combobox
+      '@reach-fork-hamtolchu/descendants': link:packages/descendants
+      '@reach-fork-hamtolchu/dialog': link:packages/dialog
+      '@reach-fork-hamtolchu/disclosure': link:packages/disclosure
+      '@reach-fork-hamtolchu/dropdown': link:packages/dropdown
+      '@reach-fork-hamtolchu/listbox': link:packages/listbox
+      '@reach-fork-hamtolchu/machine': link:packages/machine
+      '@reach-fork-hamtolchu/menu-button': link:packages/menu-button
+      '@reach-fork-hamtolchu/popover': link:packages/popover
+      '@reach-fork-hamtolchu/portal': link:packages/portal
+      '@reach-fork-hamtolchu/rect': link:packages/rect
+      '@reach-fork-hamtolchu/skip-nav': link:packages/skip-nav
+      '@reach-fork-hamtolchu/slider': link:packages/slider
+      '@reach-fork-hamtolchu/tabs': link:packages/tabs
+      '@reach-fork-hamtolchu/tooltip': link:packages/tooltip
+      '@reach-fork-hamtolchu/utils': link:packages/utils
+      '@reach-fork-hamtolchu/visually-hidden': link:packages/visually-hidden
+      '@reach-fork-hamtolchu/window-size': link:packages/window-size
       '@remix-run/changelog-github': 0.0.5
       '@testing-library/dom': 8.19.0
       '@testing-library/react': 12.1.5_sfoxds7t5ydpegc3knd667wn6m
@@ -164,10 +164,10 @@ importers:
 
   internal/dev:
     specifiers:
-      '@reach-fork-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
       tsup: ^6.1.3
     devDependencies:
-      '@reach-fork-internal/tsconfig': link:../tsconfig
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../tsconfig
       tsup: 6.5.0
 
   internal/test:
@@ -178,150 +178,150 @@ importers:
 
   packages/accordion:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/descendants': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/descendants': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/descendants': link:../descendants
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/descendants': link:../descendants
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/alert:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/utils': workspace:*
-      '@reach-fork/visually-hidden': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
+      '@reach-fork-hamtolchu/visually-hidden': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/utils': link:../utils
-      '@reach-fork/visually-hidden': link:../visually-hidden
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/utils': link:../utils
+      '@reach-fork-hamtolchu/visually-hidden': link:../visually-hidden
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/alert-dialog:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/dialog': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/dialog': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tiny-invariant: ^1.2.0
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/dialog': link:../dialog
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/dialog': link:../dialog
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/utils': link:../utils
       tiny-invariant: 1.3.1
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/auto-id:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/checkbox:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/machine': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/machine': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/machine': link:../machine
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/machine': link:../machine
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/combobox:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/descendants': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/popover': workspace:*
-      '@reach-fork/portal': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/descendants': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/popover': workspace:*
+      '@reach-fork-hamtolchu/portal': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       latinize: 0.3.0
       match-sorter: ^6.3.1
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/descendants': link:../descendants
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/popover': link:../popover
-      '@reach-fork/portal': link:../portal
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/descendants': link:../descendants
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/popover': link:../popover
+      '@reach-fork-hamtolchu/portal': link:../portal
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       latinize: 0.3.0
       match-sorter: 6.3.1
       react: 17.0.2
@@ -330,174 +330,174 @@ importers:
 
   packages/descendants:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/dialog:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/portal': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/portal': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       react-focus-lock: 2.5.2
       react-remove-scroll: 2.4.3
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/portal': link:../portal
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/portal': link:../portal
+      '@reach-fork-hamtolchu/utils': link:../utils
       react-focus-lock: 2.5.2_react@17.0.2
       react-remove-scroll: 2.4.3_react@17.0.2
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/disclosure:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/dropdown:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/descendants': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/popover': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/descendants': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/popover': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/descendants': link:../descendants
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/popover': link:../popover
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/descendants': link:../descendants
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/popover': link:../popover
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/listbox:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/descendants': workspace:*
-      '@reach-fork/machine': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/popover': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/descendants': workspace:*
+      '@reach-fork-hamtolchu/machine': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/popover': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tiny-invariant: ^1.2.0
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/descendants': link:../descendants
-      '@reach-fork/machine': link:../machine
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/popover': link:../popover
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/descendants': link:../descendants
+      '@reach-fork-hamtolchu/machine': link:../machine
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/popover': link:../popover
+      '@reach-fork-hamtolchu/utils': link:../utils
       tiny-invariant: 1.3.1
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/machine:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       '@xstate/fsm': 1.4.0
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/utils': link:../utils
       '@xstate/fsm': 1.4.0
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/menu-button:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/dropdown': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/popover': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/dropdown': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/popover': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       react-is: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/dropdown': link:../dropdown
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/popover': link:../popover
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/dropdown': link:../dropdown
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/popover': link:../popover
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-is: 17.0.2
@@ -505,229 +505,229 @@ importers:
 
   packages/polymorphic:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
       react: ^17.0.2
       tsup: ^6.1.3
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       tsup: 6.5.0
 
   packages/popover:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/portal': workspace:*
-      '@reach-fork/rect': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/portal': workspace:*
+      '@reach-fork-hamtolchu/rect': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tabbable: ^5.3.3
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/portal': link:../portal
-      '@reach-fork/rect': link:../rect
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/portal': link:../portal
+      '@reach-fork-hamtolchu/rect': link:../rect
+      '@reach-fork-hamtolchu/utils': link:../utils
       tabbable: 5.3.3
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/portal:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/rect:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       '@reach/observe-rect': 1.2.0
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/utils': link:../utils
       '@reach/observe-rect': 1.2.0
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/skip-nav:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/polymorphic': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/slider:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/tabs:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/descendants': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/descendants': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/descendants': link:../descendants
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/descendants': link:../descendants
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/tooltip:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/auto-id': workspace:*
-      '@reach-fork/polymorphic': workspace:*
-      '@reach-fork/portal': workspace:*
-      '@reach-fork/rect': workspace:*
-      '@reach-fork/utils': workspace:*
-      '@reach-fork/visually-hidden': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/auto-id': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
+      '@reach-fork-hamtolchu/portal': workspace:*
+      '@reach-fork-hamtolchu/rect': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
+      '@reach-fork-hamtolchu/visually-hidden': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/auto-id': link:../auto-id
-      '@reach-fork/polymorphic': link:../polymorphic
-      '@reach-fork/portal': link:../portal
-      '@reach-fork/rect': link:../rect
-      '@reach-fork/utils': link:../utils
-      '@reach-fork/visually-hidden': link:../visually-hidden
+      '@reach-fork-hamtolchu/auto-id': link:../auto-id
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/portal': link:../portal
+      '@reach-fork-hamtolchu/rect': link:../rect
+      '@reach-fork-hamtolchu/utils': link:../utils
+      '@reach-fork-hamtolchu/visually-hidden': link:../visually-hidden
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/utils:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/visually-hidden:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/polymorphic': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/polymorphic': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/polymorphic': link:../polymorphic
+      '@reach-fork-hamtolchu/polymorphic': link:../polymorphic
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0
 
   packages/window-size:
     specifiers:
-      '@reach-fork-internal/dev': workspace:*
-      '@reach-fork-internal/test': workspace:*
-      '@reach-fork-internal/tsconfig': workspace:*
-      '@reach-fork/utils': workspace:*
+      '@reach-fork-hamtolchu-internal/dev': workspace:*
+      '@reach-fork-hamtolchu-internal/test': workspace:*
+      '@reach-fork-hamtolchu-internal/tsconfig': workspace:*
+      '@reach-fork-hamtolchu/utils': workspace:*
       react: ^17.0.2
       react-dom: ^17.0.2
       tsup: ^6.1.3
     dependencies:
-      '@reach-fork/utils': link:../utils
+      '@reach-fork-hamtolchu/utils': link:../utils
     devDependencies:
-      '@reach-fork-internal/dev': link:../../internal/dev
-      '@reach-fork-internal/test': link:../../internal/test
-      '@reach-fork-internal/tsconfig': link:../../internal/tsconfig
+      '@reach-fork-hamtolchu-internal/dev': link:../../internal/dev
+      '@reach-fork-hamtolchu-internal/test': link:../../internal/test
+      '@reach-fork-hamtolchu-internal/tsconfig': link:../../internal/tsconfig
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       tsup: 6.5.0

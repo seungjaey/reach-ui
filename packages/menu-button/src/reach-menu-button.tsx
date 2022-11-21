@@ -12,7 +12,7 @@
  */
 
 import * as React from "react";
-import { Popover } from "@reach-fork/popover";
+import { Popover } from "@reach-fork-hamtolchu/popover";
 import {
 	DropdownProvider,
 	useDropdownItem,
@@ -20,12 +20,12 @@ import {
 	useDropdownPopover,
 	useDropdownTrigger,
 	useDropdownContext,
-} from "@reach-fork/dropdown";
-import { noop } from "@reach-fork/utils";
-import type * as Polymorphic from "@reach-fork/polymorphic";
+} from "@reach-fork-hamtolchu/dropdown";
+import { noop } from "@reach-fork-hamtolchu/utils";
+import type * as Polymorphic from "@reach-fork-hamtolchu/polymorphic";
 import { isFragment } from "react-is";
 
-import type { Position } from "@reach-fork/popover";
+import type { Position } from "@reach-fork-hamtolchu/popover";
 
 declare const __DEV__: boolean;
 

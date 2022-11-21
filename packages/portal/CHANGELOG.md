@@ -9,7 +9,7 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@reach-fork/utils@1.0.0`
+  - `@reach-fork-hamtolchu/utils@1.0.0`
 
 ## 0.18.0
 

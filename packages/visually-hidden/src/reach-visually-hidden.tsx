@@ -11,7 +11,7 @@
  */
 
 import * as React from "react";
-import type * as Polymorphic from "@reach-fork/polymorphic";
+import type * as Polymorphic from "@reach-fork-hamtolchu/polymorphic";
 
 /**
  * VisuallyHidden

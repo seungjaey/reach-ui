@@ -1,5 +1,5 @@
 {
-  "name": "@reach-fork/rect",
+  "name": "@reach-fork-hamtolchu/rect",
   "version": "1.0.0",
   "description": "Measure React elements position in the DOM",
   "author": "React Training <hello@reacttraining.com>",
@@ -13,12 +13,12 @@
   "scripts": { "build": "tsup" },
   "dependencies": {
     "@reach/observe-rect": "1.2.0",
-    "@reach-fork/utils": "workspace:*"
+    "@reach-fork-hamtolchu/utils": "workspace:*"
   },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

@@ -11,7 +11,7 @@ import {
 	CustomCheckboxContainer,
 	CustomCheckboxInput,
 } from "@reach/checkbox";
-import { act, cleanup, render, fireEvent } from "@reach-fork-internal/test/utils";
+import { act, cleanup, render, fireEvent } from "@reach-fork-hamtolchu-internal/test/utils";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";

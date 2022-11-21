@@ -23,7 +23,7 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 
 import * as React from "react";
-import { useId } from "@reach-fork/auto-id";
+import { useId } from "@reach-fork-hamtolchu/auto-id";
 import {
 	composeEventHandlers,
 	createContext,
@@ -36,8 +36,8 @@ import {
 	useControlledState,
 	useIsomorphicLayoutEffect as useLayoutEffect,
 	useStableLayoutCallback,
-} from "@reach-fork/utils";
-import type * as Polymorphic from "@reach-fork/polymorphic";
+} from "@reach-fork-hamtolchu/utils";
+import type * as Polymorphic from "@reach-fork-hamtolchu/polymorphic";
 
 declare const __DEV__: boolean;
 

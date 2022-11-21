@@ -9,7 +9,7 @@
 ### Patch Changes
 
 - Updated dependencies:
-  - `@reach-fork/polymorphic@1.0.0`
+  - `@reach-fork-hamtolchu/polymorphic@1.0.0`
 
 ## 0.18.0
 

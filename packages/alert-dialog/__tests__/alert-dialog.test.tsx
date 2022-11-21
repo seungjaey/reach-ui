@@ -2,7 +2,7 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { cleanup, render, fireEvent, act } from "@reach-fork-internal/test/utils";
+import { cleanup, render, fireEvent, act } from "@reach-fork-hamtolchu-internal/test/utils";
 import {
 	AlertDialog,
 	AlertDialogLabel,

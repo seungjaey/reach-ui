@@ -1,5 +1,5 @@
 {
-  "name": "@reach-fork/listbox",
+  "name": "@reach-fork-hamtolchu/listbox",
   "version": "1.0.0",
   "description": "Accessible React listbox input.",
   "author": "React Training <hello@reacttraining.com>",
@@ -12,18 +12,18 @@
   },
   "scripts": { "build": "tsup" },
   "dependencies": {
-    "@reach-fork/auto-id": "workspace:*",
-    "@reach-fork/descendants": "workspace:*",
-    "@reach-fork/machine": "workspace:*",
-    "@reach-fork/polymorphic": "workspace:*",
-    "@reach-fork/popover": "workspace:*",
-    "@reach-fork/utils": "workspace:*",
+    "@reach-fork-hamtolchu/auto-id": "workspace:*",
+    "@reach-fork-hamtolchu/descendants": "workspace:*",
+    "@reach-fork-hamtolchu/machine": "workspace:*",
+    "@reach-fork-hamtolchu/polymorphic": "workspace:*",
+    "@reach-fork-hamtolchu/popover": "workspace:*",
+    "@reach-fork-hamtolchu/utils": "workspace:*",
     "tiny-invariant": "^1.2.0"
   },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

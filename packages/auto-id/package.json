@@ -1,5 +1,5 @@
 {
-  "name": "@reach-fork/auto-id",
+  "name": "@reach-fork-hamtolchu/auto-id",
   "version": "1.0.0",
   "description": "Autogenerate IDs to facilitate WAI-ARIA and server rendering.",
   "author": "React Training <hello@reacttraining.com>",
@@ -11,11 +11,11 @@
     "directory": "packages/auto-id"
   },
   "scripts": { "build": "tsup" },
-  "dependencies": { "@reach-fork/utils": "workspace:*" },
+  "dependencies": { "@reach-fork-hamtolchu/utils": "workspace:*" },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

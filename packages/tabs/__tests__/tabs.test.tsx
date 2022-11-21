@@ -7,7 +7,7 @@ import {
 	render,
 	fireEvent,
 	userEvent,
-} from "@reach-fork-internal/test/utils";
+} from "@reach-fork-hamtolchu-internal/test/utils";
 import {
 	Tabs,
 	TabList,

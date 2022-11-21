@@ -1,5 +1,5 @@
 {
-  "name": "@reach-fork/menu-button",
+  "name": "@reach-fork-hamtolchu/menu-button",
   "version": "1.0.0",
   "description": "Accessible React button dropdown menu.",
   "author": "React Training <hello@reacttraining.com>",
@@ -12,15 +12,15 @@
   },
   "scripts": { "build": "tsup" },
   "dependencies": {
-    "@reach-fork/dropdown": "workspace:*",
-    "@reach-fork/polymorphic": "workspace:*",
-    "@reach-fork/popover": "workspace:*",
-    "@reach-fork/utils": "workspace:*"
+    "@reach-fork-hamtolchu/dropdown": "workspace:*",
+    "@reach-fork-hamtolchu/polymorphic": "workspace:*",
+    "@reach-fork-hamtolchu/popover": "workspace:*",
+    "@reach-fork-hamtolchu/utils": "workspace:*"
   },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",

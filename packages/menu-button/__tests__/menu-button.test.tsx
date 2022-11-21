@@ -10,7 +10,7 @@ import {
 	simulateMouseClick,
 	simulateSpaceKeyClick,
 	simulateEnterKeyClick,
-} from "@reach-fork-internal/test/utils";
+} from "@reach-fork-hamtolchu-internal/test/utils";
 import { Menu, MenuList, MenuButton, MenuItem } from "@reach/menu-button";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 

@@ -1,5 +1,5 @@
 {
-  "name": "@reach-fork/alert",
+  "name": "@reach-fork-hamtolchu/alert",
   "version": "1.0.0",
   "description": "Screen-reader-friendly alert messages.",
   "author": "React Training <hello@reacttraining.com>",
@@ -11,14 +11,14 @@
   },
   "scripts": { "build": "tsup" },
   "dependencies": {
-    "@reach-fork/polymorphic": "workspace:*",
-    "@reach-fork/utils": "workspace:*",
-    "@reach-fork/visually-hidden": "workspace:*"
+    "@reach-fork-hamtolchu/polymorphic": "workspace:*",
+    "@reach-fork-hamtolchu/utils": "workspace:*",
+    "@reach-fork-hamtolchu/visually-hidden": "workspace:*"
   },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"
