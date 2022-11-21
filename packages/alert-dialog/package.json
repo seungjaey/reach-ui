@@ -1,6 +1,6 @@
 {
   "name": "@reach-fork-hamtolchu/alert-dialog",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Accessible React Alert Dialog.",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
@@ -9,7 +9,9 @@
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/alert-dialog"
   },
-  "scripts": { "build": "tsup" },
+  "scripts": {
+    "build": "tsup"
+  },
   "dependencies": {
     "@reach-fork-hamtolchu/auto-id": "workspace:*",
     "@reach-fork-hamtolchu/dialog": "workspace:*",
@@ -31,7 +33,14 @@
   },
   "main": "./dist/reach-alert-dialog.cjs.js",
   "types": "./dist/reach-alert-dialog.d.ts",
-  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
-  "publishConfig": { "access": "public" },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "./dist/reach-alert-dialog.mjs"
 }

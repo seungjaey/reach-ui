@@ -1,6 +1,6 @@
 {
   "name": "@reach-fork-hamtolchu/descendants",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A descendant index solution for better accessibility support in compound components",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
@@ -9,8 +9,12 @@
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/descendants"
   },
-  "scripts": { "build": "tsup" },
-  "dependencies": { "@reach-fork-hamtolchu/utils": "workspace:*" },
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@reach-fork-hamtolchu/utils": "workspace:*"
+  },
   "devDependencies": {
     "@reach-fork-hamtolchu-internal/dev": "workspace:*",
     "@reach-fork-hamtolchu-internal/test": "workspace:*",
@@ -25,7 +29,15 @@
   },
   "main": "./dist/reach-descendants.cjs.js",
   "types": "./dist/reach-descendants.d.ts",
-  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
-  "publishConfig": { "access": "public" },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist",
+    "styles.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "./dist/reach-descendants.mjs"
 }

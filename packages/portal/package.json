@@ -1,17 +1,23 @@
 {
   "name": "@reach-fork-hamtolchu/portal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Declarative portals for React",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
-  "sideEffects": ["*.css"],
+  "sideEffects": [
+    "*.css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/portal"
   },
-  "scripts": { "build": "tsup" },
-  "dependencies": { "@reach-fork-hamtolchu/utils": "workspace:*" },
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@reach-fork-hamtolchu/utils": "workspace:*"
+  },
   "devDependencies": {
     "@reach-fork-hamtolchu-internal/dev": "workspace:*",
     "@reach-fork-hamtolchu-internal/test": "workspace:*",
@@ -26,7 +32,15 @@
   },
   "main": "./dist/reach-portal.cjs.js",
   "types": "./dist/reach-portal.d.ts",
-  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
-  "publishConfig": { "access": "public" },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist",
+    "styles.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "./dist/reach-portal.mjs"
 }

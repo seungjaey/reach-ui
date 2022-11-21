@@ -1,6 +1,6 @@
 {
   "name": "@reach-fork-hamtolchu/disclosure",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Accessible React disclosure component",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
@@ -9,7 +9,9 @@
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/disclosure"
   },
-  "scripts": { "build": "tsup" },
+  "scripts": {
+    "build": "tsup"
+  },
   "dependencies": {
     "@reach-fork-hamtolchu/auto-id": "workspace:*",
     "@reach-fork-hamtolchu/polymorphic": "workspace:*",
@@ -29,7 +31,14 @@
   },
   "main": "./dist/reach-disclosure.cjs.js",
   "types": "./dist/reach-disclosure.d.ts",
-  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
-  "publishConfig": { "access": "public" },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "./dist/reach-disclosure.mjs"
 }
