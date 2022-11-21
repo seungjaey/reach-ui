@@ -4,17 +4,13 @@
   "description": "Accessible React Slider Component",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
-  "sideEffects": [
-    "*.css"
-  ],
+  "sideEffects": ["*.css"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/slider"
   },
-  "scripts": {
-    "build": "tsup"
-  },
+  "scripts": { "build": "tsup" },
   "dependencies": {
     "@reach-fork-hamtolchu/auto-id": "workspace:*",
     "@reach-fork-hamtolchu/polymorphic": "workspace:*",
@@ -34,15 +30,7 @@
   },
   "main": "./dist/reach-slider.cjs.js",
   "types": "./dist/reach-slider.d.ts",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md",
-    "dist",
-    "styles.css"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
+  "publishConfig": { "access": "public" },
   "module": "./dist/reach-slider.mjs"
 }

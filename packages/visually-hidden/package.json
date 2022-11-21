@@ -4,20 +4,14 @@
   "description": "Render text that is announced to screen readers but visually hidden.",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
-  "sideEffects": [
-    "*.css"
-  ],
+  "sideEffects": ["*.css"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/visually-hidden"
   },
-  "scripts": {
-    "build": "tsup"
-  },
-  "dependencies": {
-    "@reach-fork-hamtolchu/polymorphic": "workspace:*"
-  },
+  "scripts": { "build": "tsup" },
+  "dependencies": { "@reach-fork-hamtolchu/polymorphic": "workspace:*" },
   "devDependencies": {
     "@reach-fork-hamtolchu-internal/dev": "workspace:*",
     "@reach-fork-hamtolchu-internal/test": "workspace:*",
@@ -32,14 +26,7 @@
   },
   "main": "./dist/reach-visually-hidden.cjs.js",
   "types": "./dist/reach-visually-hidden.d.ts",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md",
-    "dist"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
+  "publishConfig": { "access": "public" },
   "module": "./dist/reach-visually-hidden.mjs"
 }

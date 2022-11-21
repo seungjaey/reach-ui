@@ -4,17 +4,13 @@
   "description": "Accessible React button dropdown menu.",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
-  "sideEffects": [
-    "*.css"
-  ],
+  "sideEffects": ["*.css"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/menu-button"
   },
-  "scripts": {
-    "build": "tsup"
-  },
+  "scripts": { "build": "tsup" },
   "dependencies": {
     "@reach-fork-hamtolchu/dropdown": "workspace:*",
     "@reach-fork-hamtolchu/polymorphic": "workspace:*",
@@ -37,15 +33,7 @@
   },
   "main": "./dist/reach-menu-button.cjs.js",
   "types": "./dist/reach-menu-button.d.ts",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md",
-    "dist",
-    "styles.css"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
+  "publishConfig": { "access": "public" },
   "module": "./dist/reach-menu-button.mjs"
 }

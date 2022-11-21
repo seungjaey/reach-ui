@@ -4,17 +4,13 @@
   "description": "Accessible React accordion component",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
-  "sideEffects": [
-    "*.css"
-  ],
+  "sideEffects": ["*.css"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/accordion"
   },
-  "scripts": {
-    "build": "tsup"
-  },
+  "scripts": { "build": "tsup" },
   "dependencies": {
     "@reach-fork-hamtolchu/auto-id": "workspace:*",
     "@reach-fork-hamtolchu/descendants": "workspace:*",
@@ -35,15 +31,7 @@
   },
   "main": "./dist/reach-accordion.cjs.js",
   "types": "./dist/reach-accordion.d.ts",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md",
-    "dist",
-    "styles.css"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
+  "publishConfig": { "access": "public" },
   "module": "./dist/reach-accordion.mjs"
 }

@@ -9,9 +9,7 @@
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/utils"
   },
-  "scripts": {
-    "build": "tsup"
-  },
+  "scripts": { "build": "tsup" },
   "dependencies": {},
   "devDependencies": {
     "@reach-fork-hamtolchu-internal/dev": "workspace:*",
@@ -27,14 +25,7 @@
   },
   "main": "./dist/reach-utils.cjs.js",
   "types": "./dist/reach-utils.d.ts",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md",
-    "dist"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
+  "publishConfig": { "access": "public" },
   "module": "./dist/reach-utils.mjs"
 }
