@@ -2,12 +2,12 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { cleanup, render, act } from "@reach-fork-internal/test/utils";
+import { cleanup, render, act } from "@reach-fork-hamtolchu-internal/test/utils";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";
-import { Listbox, ListboxOption } from "@reach/listbox";
-import type { ListboxProps } from "@reach/listbox";
-import { VisuallyHidden } from "@reach/visually-hidden";
+import { Listbox, ListboxOption } from "@reach-fork-hamtolchu/listbox";
+import type { ListboxProps } from "@reach-fork-hamtolchu/listbox";
+import { VisuallyHidden } from "@reach-fork-hamtolchu/visually-hidden";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

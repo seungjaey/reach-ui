@@ -7,7 +7,7 @@ import {
 	render,
 	fireEvent,
 	userEvent,
-} from "@reach-fork-internal/test/utils";
+} from "@reach-fork-hamtolchu-internal/test/utils";
 import {
 	Tabs,
 	TabList,
@@ -16,7 +16,7 @@ import {
 	TabPanel,
 	TabsKeyboardActivation,
 	TabsOrientation,
-} from "@reach/tabs";
+} from "@reach-fork-hamtolchu/tabs";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

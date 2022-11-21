@@ -24,9 +24,9 @@
  */
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { VisuallyHidden } from "@reach-fork/visually-hidden";
-import { getOwnerDocument, useComposedRefs } from "@reach-fork/utils";
-import type * as Polymorphic from "@reach-fork/polymorphic";
+import { VisuallyHidden } from "@reach-fork-hamtolchu/visually-hidden";
+import { getOwnerDocument, useComposedRefs } from "@reach-fork-hamtolchu/utils";
+import type * as Polymorphic from "@reach-fork-hamtolchu/polymorphic";
 
 /*
  * Singleton state is fine because you don't server render

@@ -4,8 +4,8 @@
 import * as React from "react";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";
-import { cleanup, render, act } from "@reach-fork-internal/test/utils";
-import { Dialog } from "@reach/dialog";
+import { cleanup, render, act } from "@reach-fork-hamtolchu-internal/test/utils";
+import { Dialog } from "@reach-fork-hamtolchu/dialog";
 import { expect, describe, afterEach, it, vi } from "vitest";
 
 afterEach(cleanup);

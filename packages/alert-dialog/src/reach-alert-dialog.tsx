@@ -31,18 +31,18 @@
  */
 
 import * as React from "react";
-import { DialogOverlay, DialogContent } from "@reach-fork/dialog";
-import { useId } from "@reach-fork/auto-id";
+import { DialogOverlay, DialogContent } from "@reach-fork-hamtolchu/dialog";
+import { useId } from "@reach-fork-hamtolchu/auto-id";
 import {
 	createContext,
 	getOwnerDocument,
 	makeId,
 	useComposedRefs,
-} from "@reach-fork/utils";
-import type * as Polymorphic from "@reach-fork/polymorphic";
+} from "@reach-fork-hamtolchu/utils";
+import type * as Polymorphic from "@reach-fork-hamtolchu/polymorphic";
 import invariant from "tiny-invariant";
 
-import type { DialogProps, DialogContentProps } from "@reach-fork/dialog";
+import type { DialogProps, DialogContentProps } from "@reach-fork-hamtolchu/dialog";
 
 let [AlertDialogProvider, useAlertDialogCtx] =
 	createContext<AlertDialogContextValue>("AlertDialog");

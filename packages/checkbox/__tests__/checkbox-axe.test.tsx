@@ -5,13 +5,13 @@ import * as React from "react";
 import type {
 	CustomCheckboxContainerProps,
 	CustomCheckboxInputProps,
-} from "@reach/checkbox";
+} from "@reach-fork-hamtolchu/checkbox";
 import {
 	MixedCheckbox,
 	CustomCheckboxContainer,
 	CustomCheckboxInput,
-} from "@reach/checkbox";
-import { act, cleanup, render, fireEvent } from "@reach-fork-internal/test/utils";
+} from "@reach-fork-hamtolchu/checkbox";
+import { act, cleanup, render, fireEvent } from "@reach-fork-hamtolchu-internal/test/utils";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";

@@ -2,12 +2,12 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { cleanup, render, fireEvent, act } from "@reach-fork-internal/test/utils";
+import { cleanup, render, fireEvent, act } from "@reach-fork-hamtolchu-internal/test/utils";
 import {
 	AlertDialog,
 	AlertDialogLabel,
 	AlertDialogDescription,
-} from "@reach/alert-dialog";
+} from "@reach-fork-hamtolchu/alert-dialog";
 import { describe, it, expect, afterEach } from "vitest";
 
 afterEach(cleanup);

@@ -1,6 +1,6 @@
 {
-  "name": "@reach-fork/polymorphic",
-  "version": "0.18.0",
+  "name": "@reach-fork-hamtolchu/polymorphic",
+  "version": "1.1.0",
   "description": "Internal utility types for polymorphism in Reach UI.",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
@@ -12,8 +12,8 @@
   "scripts": { "build": "tsup" },
   "dependencies": {},
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "tsup": "^6.1.3"
   },

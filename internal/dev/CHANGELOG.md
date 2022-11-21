@@ -1,4 +1,4 @@
-# `@reach/polymorphic`
+# @reach-fork-internal/dev
 
 ## 1.1.0
 
@@ -11,7 +11,3 @@
 ### Major Changes
 
 - 1
-
-## 0.18.0
-
-Initial release.

@@ -1,6 +1,6 @@
 {
-  "name": "@reach-fork/tooltip",
-  "version": "0.18.0",
+  "name": "@reach-fork-hamtolchu/tooltip",
+  "version": "1.1.0",
   "description": "Accessible tooltips",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
@@ -12,17 +12,17 @@
   },
   "scripts": { "build": "tsup" },
   "dependencies": {
-    "@reach-fork/auto-id": "workspace:*",
-    "@reach-fork/polymorphic": "workspace:*",
-    "@reach-fork/portal": "workspace:*",
-    "@reach-fork/rect": "workspace:*",
-    "@reach-fork/utils": "workspace:*",
-    "@reach-fork/visually-hidden": "workspace:*"
+    "@reach-fork-hamtolchu/auto-id": "workspace:*",
+    "@reach-fork-hamtolchu/polymorphic": "workspace:*",
+    "@reach-fork-hamtolchu/portal": "workspace:*",
+    "@reach-fork-hamtolchu/rect": "workspace:*",
+    "@reach-fork-hamtolchu/utils": "workspace:*",
+    "@reach-fork-hamtolchu/visually-hidden": "workspace:*"
   },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

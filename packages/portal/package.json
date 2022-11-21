@@ -1,6 +1,6 @@
 {
-  "name": "@reach-fork/portal",
-  "version": "0.18.0",
+  "name": "@reach-fork-hamtolchu/portal",
+  "version": "1.1.0",
   "description": "Declarative portals for React",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
@@ -11,11 +11,11 @@
     "directory": "packages/portal"
   },
   "scripts": { "build": "tsup" },
-  "dependencies": { "@reach-fork/utils": "workspace:*" },
+  "dependencies": { "@reach-fork-hamtolchu/utils": "workspace:*" },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

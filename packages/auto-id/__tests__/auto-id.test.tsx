@@ -2,11 +2,11 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { render, cleanup } from "@reach-fork-internal/test/utils";
+import { render, cleanup } from "@reach-fork-hamtolchu-internal/test/utils";
 import { vi, it, expect, describe, afterEach } from "vitest";
 
 const { useId } = await vi.importActual<typeof import("../src/auto-id")>(
-	"@reach/auto-id"
+	"@reach-fork-hamtolchu/auto-id"
 );
 
 afterEach(cleanup);

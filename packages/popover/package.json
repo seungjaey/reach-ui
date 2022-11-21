@@ -1,6 +1,6 @@
 {
-  "name": "@reach-fork/popover",
-  "version": "0.18.0",
+  "name": "@reach-fork-hamtolchu/popover",
+  "version": "1.1.0",
   "description": "Render a portal positioned relative to another element.",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
@@ -11,16 +11,16 @@
     "directory": "packages/popover"
   },
   "dependencies": {
-    "@reach-fork/polymorphic": "workspace:*",
-    "@reach-fork/portal": "workspace:*",
-    "@reach-fork/rect": "workspace:*",
-    "@reach-fork/utils": "workspace:*",
+    "@reach-fork-hamtolchu/polymorphic": "workspace:*",
+    "@reach-fork-hamtolchu/portal": "workspace:*",
+    "@reach-fork-hamtolchu/rect": "workspace:*",
+    "@reach-fork-hamtolchu/utils": "workspace:*",
     "tabbable": "^5.3.3"
   },
   "devDependencies": {
-    "@reach-fork-internal/dev": "workspace:*",
-    "@reach-fork-internal/test": "workspace:*",
-    "@reach-fork-internal/tsconfig": "workspace:*",
+    "@reach-fork-hamtolchu-internal/dev": "workspace:*",
+    "@reach-fork-hamtolchu-internal/test": "workspace:*",
+    "@reach-fork-hamtolchu-internal/tsconfig": "workspace:*",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "tsup": "^6.1.3"

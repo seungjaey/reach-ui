@@ -2,12 +2,12 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { render, act, fireEvent, cleanup } from "@reach-fork-internal/test/utils";
+import { render, act, fireEvent, cleanup } from "@reach-fork-hamtolchu-internal/test/utils";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";
-import { Alert } from "@reach/alert";
-import { VisuallyHidden } from "@reach/visually-hidden";
-import { usePrevious } from "@reach/utils";
+import { Alert } from "@reach-fork-hamtolchu/alert";
+import { VisuallyHidden } from "@reach-fork-hamtolchu/visually-hidden";
+import { usePrevious } from "@reach-fork-hamtolchu/utils";
 import { describe, it, vi, expect, afterEach } from "vitest";
 
 const MESSAGE_TIMEOUT = 5000;

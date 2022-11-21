@@ -2,7 +2,7 @@
 /// <reference types="vitest-dom/extend-expect" />
 
 import * as React from "react";
-import { cleanup, render, act } from "@reach-fork-internal/test/utils";
+import { cleanup, render, act } from "@reach-fork-hamtolchu-internal/test/utils";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";
 import {
@@ -11,7 +11,7 @@ import {
 	ComboboxList,
 	ComboboxOption,
 	ComboboxPopover,
-} from "@reach/combobox";
+} from "@reach-fork-hamtolchu/combobox";
 import { matchSorter } from "match-sorter";
 import cities from "./cities";
 

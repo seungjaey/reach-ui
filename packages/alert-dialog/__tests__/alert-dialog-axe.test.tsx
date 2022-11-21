@@ -4,12 +4,12 @@
 import * as React from "react";
 import { axe } from "vitest-axe";
 import type { AxeCore } from "vitest-axe";
-import { cleanup, render, fireEvent, act } from "@reach-fork-internal/test/utils";
+import { cleanup, render, fireEvent, act } from "@reach-fork-hamtolchu-internal/test/utils";
 import {
 	AlertDialog,
 	AlertDialogLabel,
 	AlertDialogDescription,
-} from "@reach/alert-dialog";
+} from "@reach-fork-hamtolchu/alert-dialog";
 import { describe, it, expect, vi, afterEach } from "vitest";
 
 afterEach(cleanup);

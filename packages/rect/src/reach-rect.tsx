@@ -14,7 +14,7 @@ import {
 	useIsomorphicLayoutEffect as useLayoutEffect,
 	isBoolean,
 	isFunction,
-} from "@reach-fork/utils";
+} from "@reach-fork-hamtolchu/utils";
 
 declare const __DEV__: boolean;
 
