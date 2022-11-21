@@ -4,17 +4,13 @@
   "description": "State machine utilities for the Reach UI library.",
   "author": "React Training <hello@reacttraining.com>",
   "license": "MIT",
-  "sideEffects": [
-    "*.css"
-  ],
+  "sideEffects": ["*.css"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/machine"
   },
-  "scripts": {
-    "build": "tsup"
-  },
+  "scripts": { "build": "tsup" },
   "dependencies": {
     "@reach-fork/utils": "workspace:*",
     "@xstate/fsm": "1.4.0"
@@ -33,14 +29,7 @@
   },
   "main": "./dist/reach-machine.cjs.js",
   "types": "./dist/reach-machine.d.ts",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md",
-    "dist"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
+  "publishConfig": { "access": "public" },
   "module": "./dist/reach-machine.mjs"
 }

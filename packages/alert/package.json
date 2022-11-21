@@ -9,9 +9,7 @@
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/alert"
   },
-  "scripts": {
-    "build": "tsup"
-  },
+  "scripts": { "build": "tsup" },
   "dependencies": {
     "@reach-fork/polymorphic": "workspace:*",
     "@reach-fork/utils": "workspace:*",
@@ -31,14 +29,7 @@
   },
   "main": "./dist/reach-alert.cjs.js",
   "types": "./dist/reach-alert.d.ts",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md",
-    "dist"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
+  "publishConfig": { "access": "public" },
   "module": "./dist/reach-alert.mjs"
 }

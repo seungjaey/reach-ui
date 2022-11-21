@@ -9,9 +9,7 @@
     "url": "git+https://github.com/seungjaey/reach-ui.git",
     "directory": "packages/alert-dialog"
   },
-  "scripts": {
-    "build": "tsup"
-  },
+  "scripts": { "build": "tsup" },
   "dependencies": {
     "@reach-fork/auto-id": "workspace:*",
     "@reach-fork/dialog": "workspace:*",
@@ -33,14 +31,7 @@
   },
   "main": "./dist/reach-alert-dialog.cjs.js",
   "types": "./dist/reach-alert-dialog.d.ts",
-  "files": [
-    "CHANGELOG.md",
-    "LICENSE",
-    "README.md",
-    "dist"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist"],
+  "publishConfig": { "access": "public" },
   "module": "./dist/reach-alert-dialog.mjs"
 }
