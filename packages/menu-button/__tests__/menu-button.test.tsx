@@ -11,7 +11,7 @@ import {
 	simulateSpaceKeyClick,
 	simulateEnterKeyClick,
 } from "@reach-fork-hamtolchu-internal/test/utils";
-import { Menu, MenuList, MenuButton, MenuItem } from "@reach/menu-button";
+import { Menu, MenuList, MenuButton, MenuItem } from "@reach-fork-hamtolchu/menu-button";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

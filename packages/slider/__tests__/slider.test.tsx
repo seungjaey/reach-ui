@@ -9,7 +9,7 @@ import {
 	SliderMarker,
 	SliderTrack,
 	SliderRange,
-} from "@reach/slider";
+} from "@reach-fork-hamtolchu/slider";
 import { afterEach, describe, expect, it } from "vitest";
 
 afterEach(cleanup);

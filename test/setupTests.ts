@@ -29,13 +29,13 @@ expect.extend(axeMatchers);
 expect.extend(domMatchers);
 
 beforeAll(() => {
-	vi.mock("@reach/auto-id", () => {
+	vi.mock("@reach-fork-hamtolchu/auto-id", () => {
 		return {
 			useId: (fallback: string) => fallback || "REACH-ID",
 		};
 	});
 
-	vi.mock("@reach/rect", () => {
+	vi.mock("@reach-fork-hamtolchu/rect", () => {
 		return {
 			useRect: () => ({ height: 1, width: 1, x: 0, y: 0 }),
 		};

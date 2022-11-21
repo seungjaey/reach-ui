@@ -9,7 +9,7 @@ import {
 	AlertDialog,
 	AlertDialogLabel,
 	AlertDialogDescription,
-} from "@reach/alert-dialog";
+} from "@reach-fork-hamtolchu/alert-dialog";
 import { describe, it, expect, vi, afterEach } from "vitest";
 
 afterEach(cleanup);

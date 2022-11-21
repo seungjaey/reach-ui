@@ -9,7 +9,7 @@ import {
 	fireEvent,
 	keyType,
 } from "@reach-fork-hamtolchu-internal/test/utils";
-import type { ListboxProps } from "@reach/listbox";
+import type { ListboxProps } from "@reach-fork-hamtolchu/listbox";
 import {
 	Listbox,
 	ListboxButton,
@@ -17,8 +17,8 @@ import {
 	ListboxPopover,
 	ListboxOption,
 	ListboxList,
-} from "@reach/listbox";
-import { VisuallyHidden } from "@reach/visually-hidden";
+} from "@reach-fork-hamtolchu/listbox";
+import { VisuallyHidden } from "@reach-fork-hamtolchu/visually-hidden";
 import { spy } from "sinon";
 import { afterEach, describe, expect, it, vi } from "vitest";
 

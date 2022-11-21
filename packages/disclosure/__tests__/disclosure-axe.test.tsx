@@ -8,7 +8,7 @@ import {
 	Disclosure,
 	DisclosureButton,
 	DisclosurePanel,
-} from "@reach/disclosure";
+} from "@reach-fork-hamtolchu/disclosure";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

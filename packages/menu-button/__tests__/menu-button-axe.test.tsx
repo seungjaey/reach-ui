@@ -15,7 +15,7 @@ import {
 	MenuButton,
 	MenuItem,
 	MenuLink,
-} from "@reach/menu-button";
+} from "@reach-fork-hamtolchu/menu-button";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
 afterEach(cleanup);

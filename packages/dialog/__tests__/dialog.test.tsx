@@ -10,7 +10,7 @@ import {
 	userEvent,
 	cleanup,
 } from "@reach-fork-hamtolchu-internal/test/utils";
-import { Dialog } from "@reach/dialog";
+import { Dialog } from "@reach-fork-hamtolchu/dialog";
 import { expect, describe, beforeEach, afterEach, it } from "vitest";
 
 function getOverlay(container: Element) {

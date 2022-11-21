@@ -6,8 +6,8 @@ import { axe } from "vitest-axe";
 import { render, cleanup } from "@reach-fork-hamtolchu-internal/test/utils";
 import { vi, it, expect, describe, afterEach } from "vitest";
 
-const { useId } = await vi.importActual<typeof import("../src/auto-id")>(
-	"@reach/auto-id"
+const { useId } = await vi.importActual<typeof import("../src/reach-auto-id")>(
+	"@reach-fork-hamtolchu/auto-id"
 );
 
 afterEach(cleanup);
