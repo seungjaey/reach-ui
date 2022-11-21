@@ -3,7 +3,7 @@ import {
 	Disclosure,
 	DisclosureButton,
 	DisclosurePanel,
-} from "@reach/disclosure";
+} from "@reach-fork/disclosure";
 
 let name = "Basic";
 

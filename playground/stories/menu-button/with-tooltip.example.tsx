@@ -2,10 +2,10 @@
 
 import * as React from "react";
 import { action } from "@storybook/addon-actions";
-import { Menu, MenuList, MenuButton, MenuItem } from "@reach/menu-button";
-import { Tooltip } from "@reach/tooltip";
-import "@reach/menu-button/styles.css";
-import "@reach/tooltip/styles.css";
+import { Menu, MenuList, MenuButton, MenuItem } from "@reach-fork/menu-button";
+import { Tooltip } from "@reach-fork/tooltip";
+import "@reach-fork/menu-button/styles.css";
+import "@reach-fork/tooltip/styles.css";
 
 let name = "With Tooltip";
 

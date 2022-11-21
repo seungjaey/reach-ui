@@ -4,8 +4,8 @@ import {
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-} from "@reach/accordion";
-import "@reach/accordion/styles.css";
+} from "@reach-fork/accordion";
+import "@reach-fork/accordion/styles.css";
 
 let name = "Allow multiple panels";
 

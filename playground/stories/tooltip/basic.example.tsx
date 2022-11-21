@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Tooltip } from "@reach/tooltip";
-import "@reach/tooltip/styles.css";
+import { Tooltip } from "@reach-fork/tooltip";
+import "@reach-fork/tooltip/styles.css";
 
 let name = "Basic";
 

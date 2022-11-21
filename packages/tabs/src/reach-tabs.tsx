@@ -24,8 +24,8 @@ import {
 	useDescendantKeyDown,
 	useDescendantsInit,
 	useDescendants,
-} from "@reach/descendants";
-import type { Descendant } from "@reach/descendants";
+} from "@reach-fork/descendants";
+import type { Descendant } from "@reach-fork/descendants";
 import {
 	getOwnerDocument,
 	getComputedStyle,
@@ -39,9 +39,9 @@ import {
 	noop,
 	useComposedRefs,
 	composeEventHandlers,
-} from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
-import { useId } from "@reach/auto-id";
+} from "@reach-fork/utils";
+import type * as Polymorphic from "@reach-fork/polymorphic";
+import { useId } from "@reach-fork/auto-id";
 
 const TabsDescendantsContext = createDescendantContext<TabDescendant>(
 	"TabsDescendantsContext"

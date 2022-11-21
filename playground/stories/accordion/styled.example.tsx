@@ -4,9 +4,9 @@ import {
 	AccordionItem,
 	AccordionButton,
 	AccordionPanel,
-} from "@reach/accordion";
+} from "@reach-fork/accordion";
 import styled from "styled-components";
-import "@reach/accordion/styles.css";
+import "@reach-fork/accordion/styles.css";
 
 let name = "With Styled Components";
 

@@ -1,6 +1,6 @@
 import * as React from "react";
-import { DialogOverlay, DialogContent } from "@reach/dialog";
-import "@reach/dialog/styles.css";
+import { DialogOverlay, DialogContent } from "@reach-fork/dialog";
+import "@reach-fork/dialog/styles.css";
 
 let name = "With Separate Overlay";
 

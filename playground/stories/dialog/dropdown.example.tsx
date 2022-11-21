@@ -1,9 +1,9 @@
 import * as React from "react";
 import { action } from "@storybook/addon-actions";
-import { Menu, MenuButton, MenuList, MenuItem } from "@reach/menu-button";
-import { Dialog } from "@reach/dialog";
-import "@reach/menu-button/styles.css";
-import "@reach/dialog/styles.css";
+import { Menu, MenuButton, MenuList, MenuItem } from "@reach-fork/menu-button";
+import { Dialog } from "@reach-fork/dialog";
+import "@reach-fork/menu-button/styles.css";
+import "@reach-fork/dialog/styles.css";
 
 let name = "Dropdown";
 

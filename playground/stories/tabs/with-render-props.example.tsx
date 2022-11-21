@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach/tabs";
-import "@reach/tabs/styles.css";
+import { Tabs, TabList, Tab, TabPanels, TabPanel } from "@reach-fork/tabs";
+import "@reach-fork/tabs/styles.css";
 
 let name = "With render props";
 

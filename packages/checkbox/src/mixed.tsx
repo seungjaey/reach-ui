@@ -36,10 +36,10 @@ import {
 	composeEventHandlers,
 	useIsomorphicLayoutEffect,
 	useComposedRefs,
-} from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
-import { assign, useCreateMachine, useMachine } from "@reach/machine";
-import type { MachineEventWithRefs, StateMachine } from "@reach/machine";
+} from "@reach-fork/utils";
+import type * as Polymorphic from "@reach-fork/polymorphic";
+import { assign, useCreateMachine, useMachine } from "@reach-fork/machine";
+import type { MachineEventWithRefs, StateMachine } from "@reach-fork/machine";
 
 // Used for development only, not recommended for production code!
 const DEBUG = false;

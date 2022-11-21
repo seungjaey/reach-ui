@@ -3,7 +3,7 @@
 
 import * as React from "react";
 import { vi, describe, it, expect, afterEach } from "vitest";
-import { render, cleanup } from "@reach-internal/test/utils";
+import { render, cleanup } from "@reach-fork-internal/test/utils";
 import { axe } from "vitest-axe";
 import { VisuallyHidden } from "@reach/visually-hidden";
 

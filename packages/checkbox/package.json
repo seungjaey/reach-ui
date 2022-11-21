@@ -1,49 +1,38 @@
 {
-	"name": "@reach/checkbox",
-	"version": "0.18.0",
-	"description": "Accessible components to build custom, tri-state checkboxes in React.",
-	"author": "React Training <hello@reacttraining.com>",
-	"license": "MIT",
-	"source": "",
-	"sideEffects": [
-		"*.css"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/reach/reach-ui.git",
-		"directory": "packages/checkbox"
-	},
-	"scripts": {
-		"build": "tsup"
-	},
-	"dependencies": {
-		"@reach/auto-id": "workspace:*",
-		"@reach/machine": "workspace:*",
-		"@reach/polymorphic": "workspace:*",
-		"@reach/utils": "workspace:*"
-	},
-	"devDependencies": {
-		"@reach-internal/dev": "workspace:*",
-		"@reach-internal/test": "workspace:*",
-		"@reach-internal/tsconfig": "workspace:*",
-		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"tsup": "^6.1.3"
-	},
-	"peerDependencies": {
-		"react": "^16.8.0 || 17.x",
-		"react-dom": "^16.8.0 || 17.x"
-	},
-	"main": "./src/reach-checkbox.ts",
-	"types": "./src/reach-checkbox.ts",
-	"files": [
-		"CHANGELOG.md",
-		"LICENSE",
-		"README.md",
-		"dist",
-		"styles.css"
-	],
-	"publishConfig": {
-		"access": "public"
-	}
+  "name": "@reach-fork/checkbox",
+  "version": "0.18.0",
+  "description": "Accessible components to build custom, tri-state checkboxes in React.",
+  "author": "React Training <hello@reacttraining.com>",
+  "license": "MIT",
+  "source": "",
+  "sideEffects": ["*.css"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seungjaey/reach-ui.git",
+    "directory": "packages/checkbox"
+  },
+  "scripts": { "build": "tsup" },
+  "dependencies": {
+    "@reach-fork/auto-id": "workspace:*",
+    "@reach-fork/machine": "workspace:*",
+    "@reach-fork/polymorphic": "workspace:*",
+    "@reach-fork/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@reach-fork-internal/dev": "workspace:*",
+    "@reach-fork-internal/test": "workspace:*",
+    "@reach-fork-internal/tsconfig": "workspace:*",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tsup": "^6.1.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || 17.x || 18.x",
+    "react-dom": "^16.8.0 || 17.x || 18.x"
+  },
+  "main": "./dist/reach-checkbox.cjs.js",
+  "types": "./dist/reach-checkbox.d.ts",
+  "files": ["CHANGELOG.md", "LICENSE", "README.md", "dist", "styles.css"],
+  "publishConfig": { "access": "public" },
+  "module": "./dist/reach-checkbox.mjs"
 }

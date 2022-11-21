@@ -29,20 +29,20 @@ import {
 	useIsomorphicLayoutEffect as useLayoutEffect,
 	useStatefulRefValue,
 	useUpdateEffect,
-} from "@reach/utils";
-import type * as Polymorphic from "@reach/polymorphic";
+} from "@reach-fork/utils";
+import type * as Polymorphic from "@reach-fork/polymorphic";
 import {
 	createDescendantContext,
 	DescendantProvider,
 	useDescendant,
 	useDescendants,
 	useDescendantsInit,
-} from "@reach/descendants";
+} from "@reach-fork/descendants";
 import { HighlightWords } from "./utils";
-import { useId } from "@reach/auto-id";
-import { Popover, positionMatchWidth } from "@reach/popover";
-import type { PopoverProps } from "@reach/popover";
-import type { Descendant } from "@reach/descendants";
+import { useId } from "@reach-fork/auto-id";
+import { Popover, positionMatchWidth } from "@reach-fork/popover";
+import type { PopoverProps } from "@reach-fork/popover";
+import type { Descendant } from "@reach-fork/descendants";
 
 declare const __DEV__: boolean;
 

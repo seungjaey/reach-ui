@@ -5,8 +5,8 @@ import {
 	ComboboxList,
 	ComboboxOption,
 	ComboboxPopover,
-} from "@reach/combobox";
-import "@reach/combobox/styles.css";
+} from "@reach-fork/combobox";
+import "@reach-fork/combobox/styles.css";
 
 let name = "Open on focus";
 

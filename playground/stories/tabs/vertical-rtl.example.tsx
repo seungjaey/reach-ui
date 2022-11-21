@@ -6,8 +6,8 @@ import {
 	TabPanels,
 	TabPanel,
 	TabsOrientation,
-} from "@reach/tabs";
-import "@reach/tabs/styles.css";
+} from "@reach-fork/tabs";
+import "@reach-fork/tabs/styles.css";
 
 let name = "Vertically oriented tabs, RTL";
 

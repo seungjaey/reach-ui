@@ -1,10 +1,10 @@
 {
 	"pipeline": {
-		"@reach-internal/dev#build": {
+		"@reach-fork-internal/dev#build": {
 			"outputs": ["dist/**"]
 		},
 		"build": {
-			"dependsOn": ["@reach-internal/dev#build"],
+			"dependsOn": ["@reach-fork-internal/dev#build"],
 			"outputs": ["dist/**"]
 		},
 		"lint": {
